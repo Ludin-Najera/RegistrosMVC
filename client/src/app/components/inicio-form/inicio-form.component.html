@@ -1,0 +1,32 @@
+
+<br>
+<h1 align="center">Ingreso de Estudiantes</h1>
+<br><br>
+
+<div class="col-md-4 offset-md-4">
+
+    <div class="card">
+        
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <input type="text" name="nombre" [(ngModel)]="inicio.Nombre" placeholder="Nombre" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="carrera" [(ngModel)]="inicio.Carrera" placeholder="Carrera" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="carne" [(ngModel)]="inicio.Carne" placeholder="Carne" class="form-control">
+                </div>
+                
+                <button class="btn btn-sucess btn-block" (click)="GuardarEstudiante">
+                    Guardar
+                </button>
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
